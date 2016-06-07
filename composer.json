@@ -1,1 +1,7 @@
-{}
+{
+  "name": "televk",
+  "type": "Telegram Bot",
+  "require": {
+    "longman/telegram-bot": "*"
+  }
+}
