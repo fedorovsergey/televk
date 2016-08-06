@@ -11,6 +11,10 @@ try {
 
     // Set webhook
     $result = $telegram->setWebHook($hook_url);
+    echo '<pre>';
+    print_r($result);
+    echo '</pre>';
+    die();
     if ($result->isOk()) {
         echo $result->getDescription();
     }
